@@ -115,5 +115,4 @@ class Slot {
 
 const slot = new Slot(CONFIG);
 
-
 slot.simulateSpins(1000);
