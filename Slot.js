@@ -79,6 +79,12 @@ class Slot {
 	// Simulate multiple spins and calculate statistics
 	simulateSpins(totalSpins) {
 
+		//Check for bad input value.
+		if(isNaN(totalSpins) || totalSpins <= 0 || totalSpins === true) {
+			console.error('Invalid input value! Please enter positive number.')
+			return
+		}
+
 		let totalWins = 0;
 		let winningSpinsCounter = 0;
 
@@ -108,5 +114,6 @@ class Slot {
 
 
 const slot = new Slot(CONFIG);
+
 
 slot.simulateSpins(1000);

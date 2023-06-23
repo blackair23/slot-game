@@ -20,6 +20,8 @@ module.exports = {
     [2, 2, 2, 2, 2], // 3.Bottom line
     [0, 1, 0, 1, 0], // 4.W shape top and middle  
     [1, 2, 1, 2, 1], // 5.W shape middle and bottom 
+    // [0, 1, 2, 1, 0], // 6.V shape top  
+    // [2, 1, 0, 1, 2], // 7.V shape bottom    
   ],
 
   reels: [
